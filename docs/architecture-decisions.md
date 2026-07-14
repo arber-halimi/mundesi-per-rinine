@@ -24,24 +24,24 @@ Pasojat:
 - Domain nuk duhet te varet nga EF Core, HTTP ose Infrastructure.
 - Controllers duhet te mbeten te holle.
 
-## ADR-002 - PostgreSQL si databaze fillestare
+## ADR-002 - SQLServer si databaze fillestare
 
 Status: Proposed
 
 Vendim:
 
-Te perdoret PostgreSQL si databaze primare per MVP.
+Te perdoret SQLServer si databaze primare per MVP.
 
 Arsye:
 
-- SRS e jep PostgreSQL si zgjedhjen e pare.
+- SRS e jep SQLServer si zgjedhjen e pare.
 - Nuk ka databaze ekzistuese ne repository qe ta kufizoje vendimin.
-- PostgreSQL mbeshtet mire indexes, full-text search dhe JSON kur nevojitet.
+- SQLServer mbeshtet mire indexes, full-text search dhe JSON kur nevojitet.
 
 Pasojat:
 
 - Duhet Docker Compose per zhvillim lokal.
-- Integration tests duhet te perdorin Testcontainers me PostgreSQL.
+- Integration tests duhet te perdorin Testcontainers me SQLServer.
 - Nese vendoset SQL Server me vone, duhet ADR i ri.
 
 ## ADR-003 - ASP.NET Core Identity per auth

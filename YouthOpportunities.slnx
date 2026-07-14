@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/YouthOpportunities.Api/YouthOpportunities.Api.csproj" />
+    <Project Path="src/YouthOpportunities.Application/YouthOpportunities.Application.csproj" />
+    <Project Path="src/YouthOpportunities.Domain/YouthOpportunities.Domain.csproj" />
+    <Project Path="src/YouthOpportunities.Infrastructure/YouthOpportunities.Infrastructure.csproj" />
+  </Folder>
+</Solution>

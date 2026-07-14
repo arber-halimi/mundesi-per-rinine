@@ -1,0 +1,6 @@
+@YouthOpportunities.Api_HostAddress = http://localhost:5170
+
+GET {{YouthOpportunities.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
