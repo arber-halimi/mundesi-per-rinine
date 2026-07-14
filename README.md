@@ -37,3 +37,17 @@ web/
   youth-opportunities-web/
 
 docs/
+```
+
+## Prerequisites
+
+- .NET SDK 10
+- Node.js
+- pnpm
+- Docker Desktop, later for local PostgreSQL
+
+## Dokumentacion
+
+- `docs/current-state-analysis.md`
+- `docs/implementation-roadmap.md`
+- `docs/architecture-decisions.md`

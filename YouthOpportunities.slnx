@@ -5,4 +5,8 @@
     <Project Path="src/YouthOpportunities.Domain/YouthOpportunities.Domain.csproj" />
     <Project Path="src/YouthOpportunities.Infrastructure/YouthOpportunities.Infrastructure.csproj" />
   </Folder>
+  <Folder Name="/test/" />
+  <Folder Name="/test/ArchitectureTests/" />
+  <Folder Name="/test/IntegrationTests/" />
+  <Folder Name="/test/UnitTests/" />
 </Solution>

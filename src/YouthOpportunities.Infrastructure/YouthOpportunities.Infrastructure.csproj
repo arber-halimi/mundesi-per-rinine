@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\YouthOpportunities.Application\YouthOpportunities.Application.csproj" />
+    <ProjectReference Include="..\YouthOpportunities.Domain\YouthOpportunities.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
