@@ -10,7 +10,4 @@
     <Project Path="tests/YouthOpportunities.IntegrationTests/YouthOpportunities.IntegrationTests.csproj" />
     <Project Path="tests/YouthOpportunities.UnitTests/YouthOpportunities.UnitTests.csproj" />
   </Folder>
-  <Folder Name="/tests/ArchitectureTests/" />
-  <Folder Name="/tests/IntegrationTests/" />
-  <Folder Name="/tests/UnitTests/" />
 </Solution>
