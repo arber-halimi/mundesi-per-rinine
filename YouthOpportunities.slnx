@@ -5,8 +5,12 @@
     <Project Path="src/YouthOpportunities.Domain/YouthOpportunities.Domain.csproj" />
     <Project Path="src/YouthOpportunities.Infrastructure/YouthOpportunities.Infrastructure.csproj" />
   </Folder>
-  <Folder Name="/test/" />
-  <Folder Name="/test/ArchitectureTests/" />
-  <Folder Name="/test/IntegrationTests/" />
-  <Folder Name="/test/UnitTests/" />
+  <Folder Name="/tests/">
+    <Project Path="tests/YouthOpportunities.ArchitectureTests/YouthOpportunities.ArchitectureTests.csproj" />
+    <Project Path="tests/YouthOpportunities.IntegrationTests/YouthOpportunities.IntegrationTests.csproj" />
+    <Project Path="tests/YouthOpportunities.UnitTests/YouthOpportunities.UnitTests.csproj" />
+  </Folder>
+  <Folder Name="/tests/ArchitectureTests/" />
+  <Folder Name="/tests/IntegrationTests/" />
+  <Folder Name="/tests/UnitTests/" />
 </Solution>
