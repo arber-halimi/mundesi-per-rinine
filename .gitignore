@@ -1,0 +1,44 @@
+# Visual Studio / Rider / VS Code
+.vs/
+.vscode/
+.idea/
+
+# .NET build output
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.rsuser
+
+# Logs
+*.log
+logs/
+
+# Environment files / secrets
+.env
+.env.*
+!.env.example
+
+# Node / React
+node_modules/
+dist/
+build/
+.vite/
+
+# Test / coverage output
+coverage/
+TestResults/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local database / temp files
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker local overrides
+docker-compose.override.yml
