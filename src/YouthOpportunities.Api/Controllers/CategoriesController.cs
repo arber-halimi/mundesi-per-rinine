@@ -24,7 +24,7 @@ public class CategoriesController : ControllerBase
         return result.ToActionResult(this, Ok);
     }
 
-    [HttpGet("{id:guid}")]
+    [HttpGet("{id:guid}", Name = nameof(GetCategoryByIdAsync))]
     public async Task<IActionResult> GetCategoryByIdAsync(
         Guid id,
         CancellationToken cancellationToken)
@@ -43,7 +43,7 @@ public class CategoriesController : ControllerBase
 
         return result.ToActionResult(
             this,
-            category => CreatedAtAction(
+            category => CreatedAtRoute(
                 nameof(GetCategoryByIdAsync),
                 new { id = category.Id },
                 category));
